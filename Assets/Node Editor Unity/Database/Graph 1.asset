@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a433a3a398402fd4fb852763723894c2, type: 3}
+  m_Name: Graph 1
+  m_EditorClassIdentifier: 
+  showProperties: 0
+  graphName: Graph 1
+  nodes:
+  - {fileID: 114999073010676986}
+  - {fileID: 114016188568234144}
+  - {fileID: 114139642099279042}
+  selected: {fileID: 0}
+  wantsConnection: 0
+  connectionNode: {fileID: 0}
+--- !u!114 &114016188568234144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01567ce5cbd0d004fb3f3b4944fc74fe, type: 3}
+  m_Name: Add Node
+  m_EditorClassIdentifier: 
+  WIDTHandHEIGHT: {x: 0, y: 0}
+  nodeName: Add Node
+  nodeRect:
+    serializedVersion: 2
+    x: 362
+    y: 219
+    width: 200
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeSum: 4
+  inputA:
+    isOccupied: 1
+    inputNode: {fileID: 114999073010676986}
+  inputB:
+    isOccupied: 1
+    inputNode: {fileID: 114139642099279042}
+--- !u!114 &114139642099279042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23fa9ae9fa7935499274a99e2cedf6e, type: 3}
+  m_Name: Float Node
+  m_EditorClassIdentifier: 
+  WIDTHandHEIGHT: {x: 0, y: 0}
+  nodeName: Float Node
+  nodeRect:
+    serializedVersion: 2
+    x: 77
+    y: 269
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeValue: 2
+--- !u!114 &114999073010676986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23fa9ae9fa7935499274a99e2cedf6e, type: 3}
+  m_Name: Float Node
+  m_EditorClassIdentifier: 
+  WIDTHandHEIGHT: {x: 0, y: 0}
+  nodeName: Float Node
+  nodeRect:
+    serializedVersion: 2
+    x: 69
+    y: 173
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeValue: 2

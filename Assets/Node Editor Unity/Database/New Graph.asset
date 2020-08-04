@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a433a3a398402fd4fb852763723894c2, type: 3}
+  m_Name: New Graph
+  m_EditorClassIdentifier: 
+  graphName: New Graph
+  nodes:
+  - {fileID: 114948580518518442}
+  - {fileID: 114426148321804572}
+  - {fileID: 114668502471323652}
+  - {fileID: 114766497409229100}
+  - {fileID: 114964052040246528}
+  - {fileID: 114294247131675102}
+  - {fileID: 114115797517589428}
+  selected: {fileID: 0}
+  wantsConnection: 0
+  connectionNode: {fileID: 0}
+--- !u!114 &114115797517589428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01567ce5cbd0d004fb3f3b4944fc74fe, type: 3}
+  m_Name: Add Node
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodeRect:
+    serializedVersion: 2
+    x: 398
+    y: 338
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeSum: 0
+  inputA:
+    inputNode: {fileID: 0}
+  inputB:
+    inputNode: {fileID: 0}
+--- !u!114 &114294247131675102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23fa9ae9fa7935499274a99e2cedf6e, type: 3}
+  m_Name: Float Node
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodeRect:
+    serializedVersion: 2
+    x: 60
+    y: 251
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeValue: 0
+--- !u!114 &114426148321804572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01567ce5cbd0d004fb3f3b4944fc74fe, type: 3}
+  m_Name: Add Node
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodeRect:
+    serializedVersion: 2
+    x: 337
+    y: 77
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeSum: 0
+  inputA:
+    inputNode: {fileID: 0}
+  inputB:
+    inputNode: {fileID: 0}
+--- !u!114 &114668502471323652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23fa9ae9fa7935499274a99e2cedf6e, type: 3}
+  m_Name: Float Node
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodeRect:
+    serializedVersion: 2
+    x: 77
+    y: 349
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeValue: 0
+--- !u!114 &114766497409229100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23fa9ae9fa7935499274a99e2cedf6e, type: 3}
+  m_Name: Float Node
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodeRect:
+    serializedVersion: 2
+    x: 39
+    y: 32
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeValue: 0
+--- !u!114 &114948580518518442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23fa9ae9fa7935499274a99e2cedf6e, type: 3}
+  m_Name: Float Node
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodeRect:
+    serializedVersion: 2
+    x: -85
+    y: 568
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeValue: 0
+--- !u!114 &114964052040246528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23fa9ae9fa7935499274a99e2cedf6e, type: 3}
+  m_Name: Float Node
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodeRect:
+    serializedVersion: 2
+    x: 385
+    y: 226
+    width: 150
+    height: 65
+  isSelected: 0
+  parentGraph: {fileID: 11400000}
+  nodeValue: 0
